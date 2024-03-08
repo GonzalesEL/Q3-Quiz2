@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+	<title>BS5 Forms</title>
+	<style>
+	
+	/*	Add CSS here*/
+
+	</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-xl">
+        <div class="container-fluid">
+            <a class="navbar-brand">
+                <img class="rounded-circle" src="https://storage.googleapis.com/oa_disk001/obgreenhills/65/documents/class-2441/folder-10710/1709855495-2921.png" id="brand" width="100px" height="100px">
+            </a>
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item"> 
+                    <a href="#" class="nav-link">Movies</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Genre</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" class="dropdown-item">Action</a></li>
+                        <li><a href="#" class="dropdown-item">Comedy</a></li>
+                        <li><a href="#" class="dropdown-item">Horror</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"> 
+                    <a href="#" class="nav-link">Contact Us</a>
+                </li>
+            </ul>
+        </div>  		
+    </nav>
+	<!-- Home Page -->
+	<div id="home" class="container">
+	  <h1>Welcome to Movie Review</h1>
+	  <p>Welcome to our Movie Review website. Here, you can find reviews, ratings, and recommendations for the latest movies. Whether you're a cinephile or just looking for something to watch, we've got you covered!</p>
+	  <p>Stay tuned for regular updates on new releases, top picks, and much more.</p>
+	</div>
+
+	<!-- Movies Page -->
+	<div id="movies" class="container mt-3 mb-3">
+	  <h1>Latest Rated Movies</h1>
+	  	<div class="row">
+	    	<div class="col-md-4">
+	      		<div class="card">
+	        		<img src="https://images6.alphacoders.com/112/1122542.jpg" class="card-img-top" alt="">
+			        <div class="card-body">
+			          <h5 class="card-title">Parasite</h5>
+			          <p class="card-text">Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and destitute Kim Family.</p>
+			          <a href="#" class="btn btn-danger">Read Review</a>
+			        </div>
+			    </div>
+            </div>
+	    	<div class="col-md-4">
+	      		<div class="card">
+	        		<img src="https://img6.fresherslive.com/latestnews/2023/12/a-walk-to-remember-ending-explained-65798b49cad8d25124619-1200.webp" class="card-img-top" alt="">
+			        <div class="card-body">
+			          <h5 class="card-title">A Walk To Remember</h5>
+			          <p class="card-text">A jaded, aimless high school senior falls in love with a guileless young woman he and his friends once scorned.</p>
+			          <a href="#" class="btn btn-danger">Read Review</a>
+			        </div>
+			    </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                  <img src="https://images2.alphacoders.com/112/1121083.jpg" class="card-img-top" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title">Love, Simon</h5>
+                    <p class="card-text">17-year-old Simon Spier hasn't told his family or friends that he's gay, and doesn't know the identity of the anonymous classmate that he's fallen for online.</p>
+                    <a href="#" class="btn btn-danger">Read Review</a>
+                  </div>
+              </div>
+          </div>
+        </div>
+	</div>
+
+	<!-- Contact Us Page -->
+	<div id="contact" class="container">
+	  <h2>Contact Us</h2>
+	  <p>If you have any questions, feedback, or suggestions, feel free to reach out to us:</p>
+	  <ul>
+	    <li>Email: info@moviereview.com</li>
+	    <li>Phone: 1-800-MOVIE-REVIEW</li>
+	    <li>Address: 123 Movie St., Greenhills, San Juan, Philippines</li>
+	  </ul>
+	</div>
+
+	
+	<nav>
+	  <div class="container-fluid justify-content-center">
+	    <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search">
+            <button class="btn btn-primary" type="button">Search</button>
+        </form>
+	  </div>
+	</nav>
+
+</body>
+</html>
